@@ -1,0 +1,3 @@
+/home/danyl/Projects/Graphics/WorldGenerator/build/CMakeFiles/WorldGenerator.dir
+/home/danyl/Projects/Graphics/WorldGenerator/build/CMakeFiles/edit_cache.dir
+/home/danyl/Projects/Graphics/WorldGenerator/build/CMakeFiles/rebuild_cache.dir

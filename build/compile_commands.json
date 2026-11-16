@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/c++  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/src/main.cpp.o -c /home/danyl/Projects/Graphics/WorldGenerator/src/main.cpp",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/src/main.cpp",
+  "output": "CMakeFiles/WorldGenerator.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/c++  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/src/shader.cpp.o -c /home/danyl/Projects/Graphics/WorldGenerator/src/shader.cpp",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/src/shader.cpp",
+  "output": "CMakeFiles/WorldGenerator.dir/src/shader.cpp.o"
+},
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/c++  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/src/chunk.cpp.o -c /home/danyl/Projects/Graphics/WorldGenerator/src/chunk.cpp",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/src/chunk.cpp",
+  "output": "CMakeFiles/WorldGenerator.dir/src/chunk.cpp.o"
+},
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/c++  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/src/world.cpp.o -c /home/danyl/Projects/Graphics/WorldGenerator/src/world.cpp",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/src/world.cpp",
+  "output": "CMakeFiles/WorldGenerator.dir/src/world.cpp.o"
+},
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/c++  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/src/frustum.cpp.o -c /home/danyl/Projects/Graphics/WorldGenerator/src/frustum.cpp",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/src/frustum.cpp",
+  "output": "CMakeFiles/WorldGenerator.dir/src/frustum.cpp.o"
+},
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/c++  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/src/terrainGenerator.cpp.o -c /home/danyl/Projects/Graphics/WorldGenerator/src/terrainGenerator.cpp",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/src/terrainGenerator.cpp",
+  "output": "CMakeFiles/WorldGenerator.dir/src/terrainGenerator.cpp.o"
+},
+{
+  "directory": "/home/danyl/Projects/Graphics/WorldGenerator/build",
+  "command": "/usr/bin/cc  -I/home/danyl/Projects/Graphics/WorldGenerator/include -I/home/danyl/Projects/Graphics/WorldGenerator/external/glad/include  -o CMakeFiles/WorldGenerator.dir/external/glad/src/glad.c.o -c /home/danyl/Projects/Graphics/WorldGenerator/external/glad/src/glad.c",
+  "file": "/home/danyl/Projects/Graphics/WorldGenerator/external/glad/src/glad.c",
+  "output": "CMakeFiles/WorldGenerator.dir/external/glad/src/glad.c.o"
+}
+]
