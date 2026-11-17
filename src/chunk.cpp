@@ -73,7 +73,7 @@ void Chunk::generateMesh(int resolution){
   indices.clear();
   vertices.reserve(totalVerticesPerAxis * totalVerticesPerAxis * 3);
 
-  constexpr float heightScale = 5.0f;
+  constexpr float heightScale = 4.0f;
 
   float yMin = std::numeric_limits<float>::max();
   float yMax = std::numeric_limits<float>::lowest();

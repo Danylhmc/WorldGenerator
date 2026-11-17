@@ -14,15 +14,15 @@ public:
   void update(const glm::vec3& playerPos);
   Chunk* getChunkFromChunkPos(int chunkX, int chunkZ)const;
 private:
-  const int worldSize = 18;
-  const int loadRadius = 18;
-  const int unloadRadius = 20;
+  const int worldSize = 30;
+  const int loadRadius = 30;
+  const int unloadRadius = 32;
   const int LOD0 = 64;
   const int LOD1 = 32;
   const int LOD2 = 16;
-  const int LOD0dist = 4;
-  const int LOD1dist = 8;
-  const int LOD2dist = 10;
+  const int LOD0dist = 0;
+  const int LOD1dist = 0;
+  const int LOD2dist = 1;
   TerrainGenerator generator;
   Frustum frustum;
   std::vector< std::unique_ptr<Chunk>> chunks;

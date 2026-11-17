@@ -71,14 +71,14 @@ void handle_inputs(GLFWwindow* window){
   if(glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) glfwSetWindowShouldClose(window, true);
 
   glm::vec3 right = glm::normalize(glm::cross(cameraFront, cameraUp));
-  float speed = 2.0f;
+  float speed = 100.0f;
 
   if(glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) cameraPos += glm::vec3(cameraFront.x, 0.0f, cameraFront.z) * speed;
   if(glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) cameraPos -= glm::vec3(cameraFront.x, 0.0f, cameraFront.z) * speed;
   if(glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS) cameraPos += right * speed;
   if(glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) cameraPos -= right * speed;
-  if(glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) cameraPos += cameraUp;
-  if(glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS) cameraPos -= cameraUp;
+  if(glfwGetKey(window, GLFW_KEY_SPACE) == GLFW_PRESS) cameraPos += cameraUp * speed;
+  if(glfwGetKey(window, GLFW_KEY_LEFT_ALT) == GLFW_PRESS) cameraPos -= cameraUp * speed;
 
   if(glfwGetKey(window, GLFW_KEY_F2) == GLFW_PRESS) glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
   if(glfwGetKey(window, GLFW_KEY_F3) == GLFW_PRESS) glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);

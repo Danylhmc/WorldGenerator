@@ -1,6 +1,7 @@
 CMakeFiles/WorldGenerator.dir/src/testPerlin.cpp.o: \
  /home/danyl/Projects/Graphics/WorldGenerator/src/testPerlin.cpp \
  /usr/include/stdc-predef.h \
+ /home/danyl/Projects/Graphics/WorldGenerator/include/terrainGenerator.hpp \
  /home/danyl/Projects/Graphics/WorldGenerator/include/perlinNoise.hpp \
  /usr/include/c++/16/random /usr/include/c++/16/bits/requires_hosted.h \
  /usr/include/c++/16/x86_64-pc-linux-gnu/bits/c++config.h \
